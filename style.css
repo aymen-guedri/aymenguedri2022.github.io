@@ -599,7 +599,7 @@ svg{
     content: "what i know";
 }
 .skills .skills-content .column{
-    width: calc(80% - 30px);
+    width: 100%;
 }
 
 .skills .skills-content .left a{
@@ -630,7 +630,7 @@ svg{
 
     color: crimson;
     font-size: 25px;
-    width: 200px;
+    width: 250px;
     height: 70px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -647,7 +647,7 @@ svg{
     transition: 0.5s;
     
    overflow: hidden;
-   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004)
+   
     
 }
 .load:hover{
@@ -748,14 +748,8 @@ svg{
     letter-spacing: 2px;
     transition: 0.5s;
     border-right: 1px solid crimson;
-    animation: typing 5s steps(15) infinite;
+    
 }
-.load:hover text1
-{
-    color: black;
-    border-right: 1px solid #111;
-}
-
 
 
 /* project styling */
