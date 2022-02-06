@@ -752,6 +752,7 @@ svg{
 }
 
 
+
 /* project styling */
 .teams .title::after{
     content: "What I did ";
@@ -779,12 +780,12 @@ svg{
 }
 
 .teams .box p{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+    color: rgb(197, 252, 0);
+    font-size: 19px;
 }
 .teams .box a{
-    color: rgb(0, 0, 0);
-  display: block;
+  color: rgb(209, 0, 63);
+  display:inline-block;
   width: 160px!important;
   height: 30px;
   outline: none;
@@ -793,18 +794,22 @@ svg{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: rgb(255, 255, 255);
-  border: 2px solid rgb(198, 231, 11);
+  background: rgb(191, 173, 233);
+  border: 2px solid crimson;
   transition: all 0.3s ease;
+  
 }
 .teams .box a:hover{
-color: rgb(190, 220, 20);
+color: white;
   background: none;
+  border: 2px solid white;
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 23.5px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    font-family: 'Lobster', cursive;
+    
 }
 .teams .carousel .card img{
     height: 150px;
@@ -838,6 +843,7 @@ color: rgb(190, 220, 20);
 .owl-dot:hover{
     background: crimson!important;
 }
+
 
 
 /* contact */
