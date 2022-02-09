@@ -631,7 +631,7 @@ svg{
     color: crimson;
     font-size: 25px;
     width: 250px;
-    height: 70px;
+    height: 90px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
@@ -742,12 +742,13 @@ svg{
 }
 
 .load .text1{
-    font-family: consolas;
+    font-family: 'Architects Daughter', cursive;
+    width: 230px;
     color: crimson;
     overflow: hidden;
     letter-spacing: 2px;
     transition: 0.5s;
-    border-right: 1px solid crimson;
+    border-right: none;
     
 }
 
@@ -1447,7 +1448,7 @@ footer span a:hover{
 .cercle{
     position:relative;
     width: 250px;
-    height: 600px;
+    height: 400px;
     filter: url(#wavy)blur(1px);
     align-items: center;
     float:inline-start;
@@ -1475,16 +1476,16 @@ footer span a:hover{
 .cercle:before{
     content:'';
     position: absolute;
-
-    top: 35px;
-
+    
+    top: 25px;
+    margin-top: 50px;
     left: 35px;
     right: 35px;
 
     bottom: 35px;
 
     width: 250px;
-    height: 400px;
+    height: 300px;
 
     border: 20px solid #fff;
     border-radius:50%;
@@ -1501,7 +1502,7 @@ footer span a:hover{
 .cercle::after{
     content:"" ;
     position: absolute;
-
+     margin-top: 50px;
     top: 35px;
 
     left: 35px;
@@ -1510,7 +1511,7 @@ footer span a:hover{
     bottom: 35px;
 
     width: 250px;
-    height: 400px;
+    height: 300px;
 
     border: 20px solid #fff;
     border-radius:50%;
@@ -1558,6 +1559,11 @@ footer span a:hover{
         filter: hue-rotate(360deg);             
     }
     
+}
+
+svg{
+    width: 0;
+    height: 0;
 }
 
 
@@ -1696,8 +1702,7 @@ footer span a:hover{
     width: 250px;
     height: 600px;
     filter: url(#wavy)blur(1px);
-    align-items: center;
-    float:inline-start;
+    
     
 }
 .cercle h1{
@@ -1723,6 +1728,7 @@ footer span a:hover{
     content:'';
     position: absolute;
 
+    margin-top: 50px;
     top: 35px;
 
     left: 35px;
@@ -1747,7 +1753,7 @@ footer span a:hover{
 .cercle::after{
     content:"" ;
     position: absolute;
-
+    margin-top: 50px;
     top: 35px;
 
     left: 35px;
@@ -1769,6 +1775,7 @@ footer span a:hover{
 {
     animation-delay: -2.5s;
 }
+
 
 @keyframes animate{
     0%{
@@ -1801,6 +1808,11 @@ footer span a:hover{
         filter: hue-rotate(360deg);             
     }
     
+}
+
+svg{
+    width: 0;
+    height: 0;
 }
 
 
@@ -1840,16 +1852,14 @@ footer span a:hover{
 
 .load .text1{
     font-family: 'Architects Daughter', cursive;
-    font-size: 11px;
+    font-size: 13px;
     color: rgb(21, 0, 80);
     overflow: hidden;
     letter-spacing: 1px;
     transition: 0.5s;
     border-right: none;
     align-items: center;
+    width: 90px;
     
 }
-
-
-
 }
