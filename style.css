@@ -753,6 +753,7 @@ svg{
 
 
 
+
 /* project styling */
 .teams .title::after{
     content: "What I did ";
@@ -843,7 +844,6 @@ color: white;
 .owl-dot:hover{
     background: crimson!important;
 }
-
 
 
 /* contact */
@@ -1202,7 +1202,187 @@ footer span a:hover{
         position: absolute;
         top: 300px
     }
+
+/*effect */
+.cercle{
+    position:relative;
+    width: 250px;
+    height: 600px;
+    filter: url(#wavy)blur(1px);
+    align-items: center;
+    float:inline-start;
+    align-content: center;
+}
+.cercle h1{
+    color: crimson;
+    font-size: 50px;
+    padding: 15px 90px 22px 160px;
     
+    margin-top: 10px;
+    font-weight: 200;
+    
+    display: flex;
+    
+    position: relative;
+    
+
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cercle:before{
+    content:'';
+    position: absolute;
+
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #0f0,
+                inset 0 0 50px #0f0;
+    -webkit-box-reflect: below 10px linear-gradient(transparent,transparent,#0002);
+    animation: animate 5s linear infinite; 
+    align-items: center;
+   
+    align-content: center;  
+    float:left;
+}
+
+.cercle::after{
+    content:"" ;
+    position: absolute;
+    
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #fff,
+                inset 0 0 50px #fff;
+    align-items: center;
+    
+    float:left;
+    align-content: center;
+}
+.cercle:nth-child(2):before
+{
+    animation-delay: -2.5s;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+                    
+    }
+
+
+    20%{
+        box-shadow:  0 0 60px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+
+    40%{
+        box-shadow:  0 0 40px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    60%{
+        box-shadow:  0 0 80px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    80%{
+        box-shadow:  0 0 100px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    100%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+        filter: hue-rotate(360deg);             
+    }
+    
+}
+
+
+
+
+
+
+/* skills  */
+
+.skills .skills-content .column{
+    width: 100%;
+}
+
+.skills .skills-content .left a{
+    display: inline;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.skills-content{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+.load{
+
+    color: crimson;
+    font-size: 20px;
+    width: 00px;
+    height: 100px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    display: flex;
+
+    background: none;
+    position: relative;
+    
+
+    
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+   overflow: hidden;
+   
+    
+}
+
+   
+
+
+
     
 }
 
@@ -1262,10 +1442,196 @@ footer span a:hover{
         position: absolute;
         top: 300px
     }
+
+/*effect */
+.cercle{
+    position:relative;
+    width: 250px;
+    height: 600px;
+    filter: url(#wavy)blur(1px);
+    align-items: center;
+    float:inline-start;
+    align-content: center;
+}
+.cercle h1{
+    color: crimson;
+    font-size: 50px;
+    padding: 15px 90px 22px 160px;
+    
+    margin-top: 10px;
+    font-weight: 200;
+    
+    display: flex;
+    
+    position: relative;
     
 
     
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.cercle:before{
+    content:'';
+    position: absolute;
+
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #0f0,
+                inset 0 0 50px #0f0;
+    -webkit-box-reflect: below 10px linear-gradient(transparent,transparent,#0002);
+    animation: animate 5s linear infinite; 
+    align-items: center;
+   
+    align-content: center;  
+    float:left;
+}
+
+.cercle::after{
+    content:"" ;
+    position: absolute;
+
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #fff,
+                inset 0 0 50px #fff;
+    align-items: center;
+    
+    float:left;
+    align-content: center;
+}
+
+.cercle:nth-child(2):before
+{
+    animation-delay: -2.5s;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+                    
+    }
+
+
+    20%{
+        box-shadow:  0 0 60px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+
+    40%{
+        box-shadow:  0 0 40px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    60%{
+        box-shadow:  0 0 80px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    80%{
+        box-shadow:  0 0 100px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    100%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+        filter: hue-rotate(360deg);             
+    }
+    
+}
+
+
+
+
+
+.skills .skills-content .column{
+    width: 50%;
+}
+
+
+
+/* skills  */
+
+.skills .skills-content .column{
+    width: 100%;
+}
+
+.skills .skills-content .left a{
+    display: inline;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.skills-content{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+.load{
+
+    color: crimson;
+    font-size: 20px;
+    width: 100px;
+    height: 70px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    display: flex;
+
+    background: none;
+    position: relative;
+    
+
+    
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+   overflow: hidden;
+   
+    
+}
+
+    
+}
+
+    
+
+    
+
 
 @media(max-width:1200px)
 {
@@ -1324,8 +1690,166 @@ footer span a:hover{
         top: 300px
     }
 
-   
+/*effect */
+.cercle{
+    position:relative;
+    width: 250px;
+    height: 600px;
+    filter: url(#wavy)blur(1px);
+    align-items: center;
+    float:inline-start;
+    
+}
+.cercle h1{
+    color: crimson;
+    font-size: 50px;
+    padding: 15px 90px 22px 160px;
+    
+    margin-top: 10px;
+    font-weight: 200;
+    
+    display: flex;
+    
+    position: relative;
+    
 
-   
+    
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.cercle:before{
+    content:'';
+    position: absolute;
+
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #0f0,
+                inset 0 0 50px #0f0;
+    -webkit-box-reflect: below 10px linear-gradient(transparent,transparent,#0002);
+    animation: animate 5s linear infinite; 
+    align-items: center;
+   
+    align-content: center;  
+    float:left;
+}
+
+.cercle::after{
+    content:"" ;
+    position: absolute;
+
+    top: 35px;
+
+    left: 35px;
+    right: 35px;
+
+    bottom: 35px;
+
+    width: 250px;
+    height: 400px;
+
+    border: 20px solid #fff;
+    border-radius:50%;
+    box-shadow: 0 0 50px #fff,
+                inset 0 0 50px #fff;
+    
+}
+
+.cercle:nth-child(2):before
+{
+    animation-delay: -2.5s;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+                    
+    }
+
+
+    20%{
+        box-shadow:  0 0 60px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+
+    40%{
+        box-shadow:  0 0 40px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    60%{
+        box-shadow:  0 0 80px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    80%{
+        box-shadow:  0 0 100px #0f0,
+                     inset 0 0 50px #0f0;
+    }
+    100%{
+        box-shadow:  0 0 50px #0f0,
+                     inset 0 0 50px #0f0;
+        filter: hue-rotate(360deg);             
+    }
+    
+}
+
+
+
+
+
+/* skills  */
+
+
+
+.skills-content{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+
+.load{
+
+    color: crimson;
+    font-size: 20px;
+    width: 106px;
+    height: 48px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    display: inline-block;
+    background: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+   overflow: hidden; 
+}
+
+.load .text1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 11px;
+    color: rgb(21, 0, 80);
+    overflow: hidden;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border-right: none;
+    align-items: center;
+    
+}
+
+
+
+}
