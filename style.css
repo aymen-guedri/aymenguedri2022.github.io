@@ -443,7 +443,7 @@ section .title::after{
 /* services  */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: rgb(0, 0, 0);
 }
 .services .title::before,
 .teams .title::before{
@@ -757,11 +757,14 @@ svg{
 
 
 /* project styling */
+.teams{
+    background-color: rgb(0, 0, 0);
+}
 .teams .title::after{
     content: "What I did ";
 }
 .teams .carousel .card{
-    background: #222;
+    background: #111;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -984,7 +987,7 @@ color: white;
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: rgb(0, 0, 0);
     padding: 1em;
     color: #fff;
     justify-content: space-between;
@@ -1700,8 +1703,8 @@ svg{
 /*effect */
 .cercle{
     position:relative;
-    width: 250px;
-    height: 600px;
+    width: 90%;
+    height: 70%;
     filter: url(#wavy)blur(1px);
     
     
@@ -1728,7 +1731,7 @@ svg{
 .cercle:before{
     content:'';
     position: absolute;
-
+    
     margin-top: 50px;
     top: 35px;
 
@@ -1736,9 +1739,9 @@ svg{
     right: 35px;
 
     bottom: 35px;
-
-    width: 250px;
-    height: 400px;
+    width: 90%;
+    height: 70%;
+    
     border: 20px solid #fff;
     border-radius:50%;
     box-shadow: 0 0 50px #0f0,
@@ -1762,8 +1765,8 @@ svg{
 
     bottom: 35px;
 
-    width: 250px;
-    height: 400px;
+    width: 90%;
+    height: 70%;
 
     border: 20px solid #fff;
     border-radius:50%;
