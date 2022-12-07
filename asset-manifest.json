@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4401c76a.css",
-    "main.js": "/static/js/main.53c2f944.js",
+    "main.js": "/static/js/main.d8248b44.js",
     "static/js/787.efb4d185.chunk.js": "/static/js/787.efb4d185.chunk.js",
     "static/media/native.png": "/static/media/native.889caca1c623d3c6a0c8.png",
     "static/media/bc-home.png": "/static/media/bc-home.c15000353851b4ae7e09.png",
@@ -14,7 +14,7 @@
     "static/media/3.png": "/static/media/3.0d778bf88ec66edd6834.png",
     "static/media/unityy.jpg": "/static/media/unityy.c57a89242f540458fdb1.jpg",
     "static/media/react.jpg": "/static/media/react.347ff04a3c438b1c25d9.jpg",
-    "static/media/aymen.png": "/static/media/aymen.c901bdda427ddeb3cdf5.png",
+    "static/media/aymen.png": "/static/media/aymen.cdb64bd9a5dff647513e.png",
     "static/media/getInTouch2.png": "/static/media/getInTouch2.68d1b9db28191a994772.png",
     "static/media/cp1.jpg": "/static/media/cp1.ae7a81d2150765b3e8da.jpg",
     "static/media/database.png": "/static/media/database.effcba249749f55a10e8.png",
@@ -48,11 +48,11 @@
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.4401c76a.css.map": "/static/css/main.4401c76a.css.map",
-    "main.53c2f944.js.map": "/static/js/main.53c2f944.js.map",
+    "main.d8248b44.js.map": "/static/js/main.d8248b44.js.map",
     "787.efb4d185.chunk.js.map": "/static/js/787.efb4d185.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4401c76a.css",
-    "static/js/main.53c2f944.js"
+    "static/js/main.d8248b44.js"
   ]
 }
